@@ -7,16 +7,19 @@
   </head>
 
   <body>
-  <h1>Broadway Design</h1>
-    <nav>
-      <h3 id="home">Home</h3>
-      <h3 id="process">Process</h3>
-      <h3 id="work">Work</h3>
-      <h3 id="team">Team</h3>
-      <h3 id="contact">Contact</h3>
-    </nav>
+  <div id="home">
+    <h1>Broadway Design</h1>
+      <nav>
+        <h3><a href="#home">Home</a></h3>
+        <h3><a href="#process">Process</a></h3>
+        <h3><a href="#work">Work</a></h3>
+        <h3><a href="#team">Team</a></h3>
+        <h3><a href="#contact">Contact</a></h3>
+      </nav>
+  </div>
 
-  <h2>Our Process</h2>
+
+  <h2 id="process">Our Process</h2>
   <img src="./resources/images/identify.svg" alt="img_identify">
   <h3>Identify</h3>
   <p>We focus on the most important details.</p>
@@ -28,16 +31,26 @@
 
   <h3>Designed in New York</h3>
 
-  <h3>Portfolio</h3>
-  <p>Coming Soon</p>
-  <h3>Team</h3>
-  <p>We're Hiring!</p>
-  <h3>Contact</h3>
-  <p>Phone: (555)-555-5555</p>
-  <p>E-mail: test@example.com</p>
-  <p>Twitter:@test</p>
+  <div id="work">
+    <h3>Portfolio</h3>
+    <p>Coming Soon</p>
+  </div>
 
-  <p> &copy; Broadway 2016 Home About Work Team Contact</p>
+  <div id="team">
+    <h3>Team</h3>
+    <p>We're Hiring!</p>
+  </div>
+
+  <div id="contact">
+    <h3>Contact</h3>
+    <p>Phone: (555)-555-5555</p>
+    <p>E-mail: test@example.com</p>
+    <p>Twitter:@test</p>
+  </div>
+
+  <p> &copy; <span id="copyright">Broadway 2016</span> <a href="#home"><strong>Home</strong></a>
+    <a href="#about"><strong>About</strong></a> <a href="#work"><strong>Work</strong></a>
+    <a href="#team"><strong>Team</strong></a> <a href="#contact"><strong>Contact</strong></a></p>
 
 
 
