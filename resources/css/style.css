@@ -57,3 +57,7 @@ p {
   background-color: dimgray;
   color: white;
 }
+
+#copyrightlogo {
+  font-size: 11px;
+}
